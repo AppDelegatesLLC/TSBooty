@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "node-gyp": "^3.4.0",
+    "node-sass": "^3.13.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ogBootstrap",
+  "description": "Bootstrap for OG",
+  "main": "",
+  "authors": [
+    "Mitch Kahn <mitch@appdelegates.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}

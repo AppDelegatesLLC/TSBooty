@@ -1,0 +1,40 @@
+// These override the variables in bootstrap, because bootstrap vars use the !default flag
+@import "trainingslate_variables";
+// The path to these is set in gulpfile.js
+@import "bootstrap";
+// There is not one in here
+//@import "bootstrap/theme";
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../common/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../common/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+.btn {
+  background-image: none;
+  border: 0px;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tg5 {
+  margin-top: 5px;
+}
+
+.tg10 {
+  margin-top: 10px;
+}
+
+.tg20 {
+  margin-top: 20px;
+}
